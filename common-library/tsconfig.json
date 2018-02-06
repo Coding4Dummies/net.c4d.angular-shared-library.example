@@ -1,0 +1,57 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es2015",
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "declaration": false,
+    "sourceMap": true,
+    "outDir": "./dist/out-tsc",
+    "rootDir": "./",
+    "strict": false,
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "paths": {
+      "@angular/animations": [
+        "../tour-of-heroes/node_modules/@angular/animations"
+      ],
+      "@angular/cdk": [
+        "../tour-of-heroes/node_modules/@angular/cdk"
+      ],
+      "@angular/common": [
+        "../tour-of-heroes/node_modules/@angular/common"
+      ],
+      "@angular/core": [
+        "../tour-of-heroes/node_modules/@angular/core"
+      ],
+      "@angular/forms": [
+        "../tour-of-heroes/node_modules/@angular/forms"
+      ],
+      "@angular/http": [
+        "../tour-of-heroes/node_modules/@angular/http"
+      ],
+      "@angular/material": [
+        "../tour-of-heroes/node_modules/@angular/material"
+      ],
+      "@angular/platform-browser": [
+        "../tour-of-heroes/node_modules/@angular/platform-browser"
+      ],
+      "@angular/platform-browser-dynamic": [
+        "../tour-of-heroes/node_modules/@angular/platform-browser-dynamic"
+      ],
+      "@angular/router": [
+        "../tour-of-heroes/node_modules/@angular/router"
+      ]
+    },
+    "typeRoots": [
+      "../tour-of-heroes/node_modules/@types"
+    ],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "stripInternal": true,
+    "skipLibCheck": true
+  }
+}
